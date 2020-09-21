@@ -1,6 +1,6 @@
 import telebot
 import requests
-bot = telebot.TeleBot('1215897966:AAHIUxjTr-6gWsOO8ScL_Z_5gFtmHUBqyGE')
+bot = telebot.TeleBot('HTTP API')
 @bot.message_handler(content_types=['text'])
 def get_text_messages(message):
     if message.text == "/help":
